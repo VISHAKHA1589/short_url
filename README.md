@@ -1,4 +1,4 @@
-# cdg.sh – A Clean, Simple URL Shortener
+# short-url – A Clean, Simple URL Shortener
 
 This is a lightweight URL shortener built with Node.js, Express, and MongoDB. It’s designed to be easy to use, fully CSP-compliant (no inline scripts or evals), and super quick to set up. The frontend uses plain HTML, CSS, and JavaScript — no frameworks, no fluff.
 
