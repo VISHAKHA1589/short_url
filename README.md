@@ -6,7 +6,7 @@ This is a lightweight URL shortener built with Node.js, Express, and MongoDB. It
 
 ## ✨ What it does
 
-- Lets users shorten long URLs with custom slugs (like `cdg.sh/my-link`)
+- Lets users shorten long URLs with custom slugs (like `short_url/my-link`)
 - Redirects visitors to the original URL when they visit the short one
 - Fully fronted by a minimal, framework-free UI
 - Secure setup with no inline JavaScript (safe for strict CSP environments)
@@ -19,7 +19,7 @@ This is a lightweight URL shortener built with Node.js, Express, and MongoDB. It
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/cdg.sh-url-shortener.git
+git clone https://github.com/yourusername/short_url.git
 cd cdg.sh-url-shortener
 2. Install dependencies
 npm install
