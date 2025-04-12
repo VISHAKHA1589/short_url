@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cdg.sh</title>
-    <link rel="stylesheet" href="styles.css"></link>
+  <meta charset="UTF-8" />
+  <title>cdg.sh – Short URL Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 600px;
+      margin: 2rem auto;
+    }
+    label, input, button {
+      display: block;
+      margin-top: 1rem;
+      width: 100%;
+    }
+    .message {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .success {
+      color: green;
+    }
+    .error {
+      color: red;
+    }
+  </style>
 </head>
 <body>
-    <header>  <h1>cdg.sh-short urls for your codegarden</h1></header>
-  
+  <header>
+    <h1>Short-Url: Short URLs for your favourite websites</h1>
+  </header>
+
+  <main>
+    <form id="shorten-form">
+      <label for="url">URL</label>
+      <input id="url" name="url" type="url" placeholder="https://example.com" required />
+
+      <label for="slug">Slug (optional)</label>
+      <input id="slug" name="slug" type="text" placeholder="custom-slug" />
+
+      <button type="submit">Create</button>
+    </form>
+
+    <div id="message" class="message"></div>
+  </main>
+
+  <!-- ✅ THIS IS YOUR JAVASCRIPT CODE, IN THE RIGHT PLACE -->
+  <script src="/app.js"></script>
+
 </body>
 </html>
